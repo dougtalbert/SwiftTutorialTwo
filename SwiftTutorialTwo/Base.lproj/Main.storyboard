@@ -27,11 +27,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89i-fC-s8j">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89i-fC-s8j">
                                 <rect key="frame" x="164" y="123" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7u6-7f-6VK"/>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Mt-uw-ELc"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fU-zq-M4U">
@@ -58,6 +58,7 @@
                             <constraint firstItem="MCN-Wv-HEr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="BZp-GU-fLt"/>
                             <constraint firstItem="0fU-zq-M4U" firstAttribute="top" secondItem="89i-fC-s8j" secondAttribute="bottom" constant="30" id="H9h-KN-68o"/>
                             <constraint firstItem="Quk-cp-OFk" firstAttribute="top" secondItem="0fU-zq-M4U" secondAttribute="bottom" constant="8" id="JV6-WE-ABK"/>
+                            <constraint firstItem="89i-fC-s8j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZHO-RV-1We"/>
                             <constraint firstItem="0fU-zq-M4U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEm-2s-ddQ"/>
                             <constraint firstItem="MCN-Wv-HEr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ePR-LC-Ve4"/>
                             <constraint firstItem="89i-fC-s8j" firstAttribute="top" secondItem="MCN-Wv-HEr" secondAttribute="bottom" constant="32" id="nhn-HJ-XOM"/>

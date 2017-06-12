@@ -15,11 +15,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var text1: UITextField!
     
     @IBOutlet weak var text2: UITextField!
-    
+   
     @IBAction func buttonTapped(_ sender: Any) {
         
+        var ans = Int(text1.text!)! + Int(text2.text!)!
         
+        labelOne.text = "The answer is \(ans)"
     }
+    
+    
+    
+    
+    
     
     
     override func viewDidLoad() {
