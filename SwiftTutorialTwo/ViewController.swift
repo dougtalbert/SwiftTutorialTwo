@@ -16,9 +16,28 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var text2: UITextField!
    
+    @IBOutlet weak var text3: UITextField!
+    
     @IBAction func buttonTapped(_ sender: Any) {
         
-        var ans = Int(text1.text!)! + Int(text2.text!)!
+        var aS : Bool
+        if text3.text == "a"
+        {
+            aS = true
+        }
+        else {
+            aS = false
+        }
+        
+        var ans : Int
+        if aS == true{
+            ans = Int(text1.text!)! + Int(text2.text!)!
+        }
+        else{
+            ans = Int(text1.text!)! - Int(text2.text!)!
+        }
+        
+        //var ans = Int(text1.text!)! + Int(text2.text!)!
         
         labelOne.text = "The answer is \(ans)"
     }

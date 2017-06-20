@@ -52,12 +52,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zwd-iR-PE3">
+                                <rect key="frame" x="175" y="266" width="25" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="MCN-Wv-HEr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="BZp-GU-fLt"/>
+                            <constraint firstItem="Zwd-iR-PE3" firstAttribute="top" secondItem="Quk-cp-OFk" secondAttribute="bottom" constant="8" id="H9C-Po-R48"/>
                             <constraint firstItem="0fU-zq-M4U" firstAttribute="top" secondItem="89i-fC-s8j" secondAttribute="bottom" constant="30" id="H9h-KN-68o"/>
                             <constraint firstItem="Quk-cp-OFk" firstAttribute="top" secondItem="0fU-zq-M4U" secondAttribute="bottom" constant="8" id="JV6-WE-ABK"/>
+                            <constraint firstItem="Zwd-iR-PE3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KB7-et-LbR"/>
+                            <constraint firstItem="Zwd-iR-PE3" firstAttribute="top" secondItem="Quk-cp-OFk" secondAttribute="bottom" constant="15" id="Wzp-ms-Nt3"/>
                             <constraint firstItem="89i-fC-s8j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZHO-RV-1We"/>
                             <constraint firstItem="0fU-zq-M4U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEm-2s-ddQ"/>
                             <constraint firstItem="MCN-Wv-HEr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ePR-LC-Ve4"/>
@@ -69,6 +78,7 @@
                         <outlet property="labelOne" destination="MCN-Wv-HEr" id="vfa-MK-2tl"/>
                         <outlet property="text1" destination="0fU-zq-M4U" id="9IQ-9b-nV3"/>
                         <outlet property="text2" destination="Quk-cp-OFk" id="iRn-bv-2Ga"/>
+                        <outlet property="text3" destination="Zwd-iR-PE3" id="1Jh-mZ-2Pa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
